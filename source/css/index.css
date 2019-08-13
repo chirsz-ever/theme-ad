@@ -61,7 +61,7 @@ main {
   left: 0;
   width: 100%;
   height: 50px;
-  background: #F5F5F5;
+  background: #66CCFF;
   overflow: auto;
   z-index: 300; }
   .bottom-bar-left, .bottom-bar-right {

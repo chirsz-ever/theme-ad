@@ -27,7 +27,7 @@ custom_styles:
 custom_scripts: 
 
 # 代码高亮主题: normal | night | night blue | night bright | night eighties
-highlight_theme: "normal"
+highlight_theme: "night blue"
 
 # 开启数学公式渲染
 mathjax: true
@@ -85,13 +85,7 @@ analytics:
     id: 
 
 # 打赏图片
-reward:
-  -
-    src: /images/wechat.png
-    alt: "WeChat"
-  -
-    src: /images/alipay.png
-    alt: "AliPay"
+reward: false
 
 # 第三方库的CDN地址
 # 请根据情况自行决定是否替换为国内CDN
