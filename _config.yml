@@ -106,6 +106,9 @@ nav:
   -
     name: "分类"
     path: "/categories/"
+  - 
+    name: "备忘录"
+    path: "/memorandums/"
   -
     name: "关于"
     path: "/about/"
