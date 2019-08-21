@@ -133,8 +133,8 @@ footer:
         name: "知乎"
         path: "https://www.zhihu.com/people/chirsz-ever"
       -
-        name: "百度贴吧"
-        path: "http://tieba.baidu.com/home/main?id=11b5e8a2abe5ad90e9a39ee4ba86329821"
+        name: "github"
+        path: "https://github.com/chirsz-ever/"
 
 footer_contact: "Email: chirsz@foxmail.com"
 
