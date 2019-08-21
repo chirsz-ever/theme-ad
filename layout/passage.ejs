@@ -30,7 +30,7 @@
     <%- page.more %>
   </article>
   <%- partial('components/toc') %>
-  <% if(theme.copyright.enable) { %>
+  <% if(theme.copyright.enable && is_post()) { %>
     <aside class="passage-copyright">
       <div>本文作者: <%- theme.copyright.author || theme.author || config.author %></div>
       <% if(theme.copyright.show_link) { %>
