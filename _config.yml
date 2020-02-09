@@ -98,9 +98,6 @@ cdn:
 
 nav:
   -
-    name: "归档"
-    path: "/archives/"
-  -
     name: "标签"
     path: "/tags/"
   -
