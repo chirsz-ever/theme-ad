@@ -1,27 +1,23 @@
 
-$bottom-bar-btn-h: 40px;
+$side-bar-btn-d: 40px;
 
-.bottom-bar {
+.side-bar {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   position: fixed;
   bottom: 0;
   right: 0;
-  width: $bottom-bar-height;
+  width: $side-bar-width;
   height: 100%;
   background: none;
   overflow: auto;
   z-index: 300;
 
-  &-left, &-right {
+  &-bottom {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-
-    min-height: $bottom-bar-btn-h * 2 + 20px;
-    margin-bottom: 10px;
   }
 
   a {
@@ -32,6 +28,7 @@ $bottom-bar-btn-h: 40px;
     text-align: center;
     transition: all .15s linear;
     color: $color-blue-4;
+    margin-bottom: 20px;
 
     &:hover {
       border-radius: 50%;

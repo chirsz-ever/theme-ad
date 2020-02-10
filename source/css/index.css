@@ -53,7 +53,7 @@ main {
   overflow-x: auto;
   overflow-y: hidden; }
 
-.bottom-bar {
+.side-bar {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -65,33 +65,31 @@ main {
   background: none;
   overflow: auto;
   z-index: 300; }
-  .bottom-bar-left, .bottom-bar-right {
+  .side-bar-bottom {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100px;
-    margin-bottom: 10px; }
-  .bottom-bar a {
+    align-items: center; }
+  .side-bar a {
     display: inline-block;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     transition: all .15s linear;
-    color: #42A5F5; }
-    .bottom-bar a:hover {
+    color: #42A5F5;
+    margin-bottom: 20px; }
+    .side-bar a:hover {
       border-radius: 50%;
       color: white;
       background: #42A5F5; }
-    .bottom-bar a[data-enable="false"] {
+    .side-bar a[data-enable="false"] {
       color: #90CAF9;
       cursor: not-allowed; }
-      .bottom-bar a[data-enable="false"]:hover {
+      .side-bar a[data-enable="false"]:hover {
         color: white;
         background: #90CAF9; }
   @media screen and (min-width: 769px) {
-    .bottom-bar #site-toggle-share-btn {
+    .side-bar #site-toggle-share-btn {
       display: none; } }
 
 .site-comment-contanier #site-comment-info, .site-comment-contanier #site-comment, .site-comment-contanier #disqus_thread {
