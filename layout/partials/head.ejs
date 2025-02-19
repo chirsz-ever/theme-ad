@@ -60,7 +60,7 @@
     <script src="<%- theme.cdn.leancloud %>" async></script>
   <% } %>
 
-  <% if(theme.mathjax) { %>
+  <% if(theme.mathjax && page.mathjax) { %>
     <script type="text/javascript" src="<%- theme.cdn.mathjax %>" async></script>
   <% } %>
 
@@ -75,6 +75,10 @@
   <%- partial('components/config') %>
 
   <%- js(['/vendor/sha256.min.js', '/js/auth.js', '/js/index.js', '/vendor/qrcode.min.js']) %>
+
+  <% if (page.mermaid) { %>
+    <script type="text/javascript" src="<%- theme.cdn.mermaid %>" async></script>
+  <% } %>
 
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- url_for(theme.favicon.icon) %>">
